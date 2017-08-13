@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++0x -pthread -std=c++0x -g    -lpthread CMakeFiles/disruptorTest.dir/disruptorTest.cpp.o  -o disruptorTest -rdynamic ../../libCxxDisruptor.so -Wl,-rpath,/home/baastruph/projects/CxxDisruptor/trunk 

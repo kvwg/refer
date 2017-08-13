@@ -1,0 +1,10 @@
+You can import the project in Qt Creator by open the project in the
+CMakeLists.txt file.
+
+To build from commandline do:
+1. change into the directory where you extracted the tar file.
+2. $ cmake .
+3. $ make all
+You should now have a libCxxDisruptor.so file containg a library
+you can link into your code.
+

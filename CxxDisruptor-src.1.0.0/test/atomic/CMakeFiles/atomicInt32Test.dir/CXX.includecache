@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+./src/atomic/atomicInt32.h
+cstdint
+-
+
+/home/baastruph/projects/CxxDisruptor/trunk/test/atomic/atomicInt32Test.cpp
+cxxtest/TestListener.h
+-
+cxxtest/TestTracker.h
+-
+cxxtest/TestRunner.h
+-
+cxxtest/RealDescriptions.h
+-
+cxxtest/TestMain.h
+-
+cxxtest/ErrorPrinter.h
+-
+/home/baastruph/projects/CxxDisruptor/trunk/test/atomic/atomicInt32Test.h
+-
+cxxtest/Root.cpp
+-
+
+/home/baastruph/projects/CxxDisruptor/trunk/test/atomic/atomicInt32Test.h
+cxxtest/TestSuite.h
+-
+atomicInt32.h
+/home/baastruph/projects/CxxDisruptor/trunk/test/atomic/atomicInt32.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++0x -pthread -std=c++0x -g    -lpthread CMakeFiles/atomicInt32Test.dir/atomicInt32Test.cpp.o  -o atomicInt32Test -rdynamic ../../libCxxDisruptor.so -Wl,-rpath,/home/baastruph/projects/CxxDisruptor/trunk 

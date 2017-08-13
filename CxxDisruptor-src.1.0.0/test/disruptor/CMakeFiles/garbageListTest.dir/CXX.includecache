@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+./src/disruptor/baseDisruptorClass.h
+
+./src/disruptor/garbageList.h
+baseDisruptorClass.h
+./src/disruptor/baseDisruptorClass.h
+
+/home/baastruph/projects/CxxDisruptor/trunk/test/disruptor/garbageListTest.cpp
+cxxtest/TestListener.h
+-
+cxxtest/TestTracker.h
+-
+cxxtest/TestRunner.h
+-
+cxxtest/RealDescriptions.h
+-
+cxxtest/TestMain.h
+-
+cxxtest/ErrorPrinter.h
+-
+/home/baastruph/projects/CxxDisruptor/trunk/test/disruptor/garbageListTest.h
+-
+cxxtest/Root.cpp
+-
+
+/home/baastruph/projects/CxxDisruptor/trunk/test/disruptor/garbageListTest.h
+cxxtest/TestSuite.h
+-
+typeinfo
+-
+garbageList.h
+/home/baastruph/projects/CxxDisruptor/trunk/test/disruptor/garbageList.h
+

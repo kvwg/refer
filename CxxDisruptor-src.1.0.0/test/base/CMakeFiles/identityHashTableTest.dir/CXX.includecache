@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+./src/base/identityHashTable.h
+functional
+-
+illegalArgumentException.h
+./src/base/illegalArgumentException.h
+
+./src/base/illegalArgumentException.h
+exception
+-
+
+/home/baastruph/projects/CxxDisruptor/trunk/test/base/identityHashTableTest.cpp
+cxxtest/TestListener.h
+-
+cxxtest/TestTracker.h
+-
+cxxtest/TestRunner.h
+-
+cxxtest/RealDescriptions.h
+-
+cxxtest/TestMain.h
+-
+cxxtest/ErrorPrinter.h
+-
+/home/baastruph/projects/CxxDisruptor/trunk/test/base/identityHashTableTest.h
+-
+cxxtest/Root.cpp
+-
+
+/home/baastruph/projects/CxxDisruptor/trunk/test/base/identityHashTableTest.h
+cxxtest/TestSuite.h
+-
+identityHashTable.h
+/home/baastruph/projects/CxxDisruptor/trunk/test/base/identityHashTable.h
+illegalArgumentException.h
+/home/baastruph/projects/CxxDisruptor/trunk/test/base/illegalArgumentException.h
+
